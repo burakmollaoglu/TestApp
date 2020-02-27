@@ -1,0 +1,17 @@
+<mvc:View controllerName="test.test.controller.mainView" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content></content>
+					<footer>
+						<OverflowToolbar>
+							<Button text="Youtube" type="Accept" press="pressOpenMobileApp"/>
+							<Button text="Fiori Client" type="Accept" press="pressOpenFioriClient"/>
+						</OverflowToolbar>
+					</footer>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
