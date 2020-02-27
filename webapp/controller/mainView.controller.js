@@ -7,6 +7,7 @@ sap.ui.define([
 		onInit: function () {
 
 		},
+		
 		pressOpenMobileApp: function (params) {
 			// var href = "vnd.youtube://watch?v=GbL39Vald9E";
 			var href = "vnd.youtube://";
